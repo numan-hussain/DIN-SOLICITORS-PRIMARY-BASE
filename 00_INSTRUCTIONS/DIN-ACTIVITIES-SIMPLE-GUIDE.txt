@@ -1,0 +1,98 @@
+DIN SOLICITORS - SIMPLE WORKFLOW GUIDE
+
+Main working folder:
+DIN-SOLICITORS-PRIMARY-BASE
+
+For day-to-day work, use:
+DIN-ACTIVITIES
+
+Every task, export, file or activity should have its own folder inside DIN-ACTIVITIES.
+
+Folder naming format:
+YYYY-MM-DD_activity-name
+
+Example:
+2026-04-27_meta-ads-copy
+2026-04-27_homepage-section-code
+2026-04-27_housing-disrepair-blog
+
+Inside each activity folder, use this structure:
+
+00_BRIEF
+01_RESOURCES
+02_DRAFTS
+03_EXPORTS
+04_FINAL
+05_NOTES
+
+What each folder is for:
+
+00_BRIEF
+Use this for the task brief, goal, audience and requirements.
+
+01_RESOURCES
+Use this for images, videos, screenshots, notes, documents, links or anything Numan adds.
+
+02_DRAFTS
+Use this for working versions.
+
+03_EXPORTS
+Use this for exported files or generated files.
+
+04_FINAL
+Use this for approved final files.
+
+05_NOTES
+Use this for decisions, checks, reminders and asset registers.
+
+GitHub rule:
+GitHub should mainly store text, code, briefs, notes, templates and tracking files.
+
+Dropbox/local rule:
+Images, videos, audio, design files, ZIP files and large exports should stay in Dropbox/local folders.
+
+Large file rule:
+Do not push large media files to GitHub by default.
+
+Asset register rule:
+If an activity has images, videos or large files, create:
+05_NOTES/ASSET-REGISTER.md
+
+Use the asset register to track:
+
+- File name
+- Local path
+- Dropbox path or shared link
+- Purpose
+- Source
+- Licence or consent status
+- Notes
+
+Simple example:
+
+DIN-ACTIVITIES/2026-04-27_meta-ads-copy/
+  00_BRIEF/
+  01_RESOURCES/
+  02_DRAFTS/
+  03_EXPORTS/
+  04_FINAL/
+  05_NOTES/
+
+If Numan needs to add files, he should add them inside:
+DIN-ACTIVITIES/YYYY-MM-DD_activity-name/01_RESOURCES/
+
+If Codex creates exported files, they should go inside:
+DIN-ACTIVITIES/YYYY-MM-DD_activity-name/03_EXPORTS/
+
+If a final approved file is ready, it should go inside:
+DIN-ACTIVITIES/YYYY-MM-DD_activity-name/04_FINAL/
+
+Compliance reminder:
+
+- Use British English.
+- Follow Din Solicitors brand rules.
+- Do not use misleading legal marketing claims.
+- Do not include sensitive client information.
+- Do not invent testimonials, client stories or case results.
+- Keep SRA and CAP Code compliance in mind.
+

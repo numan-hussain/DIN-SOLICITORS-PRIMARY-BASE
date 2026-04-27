@@ -1,0 +1,111 @@
+DIN SOLICITORS - SIMPLE PROJECT WORKFLOW GUIDE
+
+Main working folder:
+DIN-SOLICITORS-PRIMARY-BASE
+
+For all work, use:
+02_PROJECTS
+
+Every campaign, website task, export, content file or activity should have its own folder inside 02_PROJECTS.
+
+Folder naming format:
+YYYY-MM-DD_project-name
+
+Example:
+2026-04-27_meta-ads-copy
+2026-04-27_homepage-section-code
+2026-04-27_housing-disrepair-blog
+2026-04-27_website-new-version
+
+Inside each project folder, use this structure:
+
+00_BRIEF
+01_RESEARCH
+02_STRATEGY
+03_COPY
+04_DESIGN
+05_CODE
+06_ASSETS
+07_REPORTS
+08_FINAL
+
+What each folder is for:
+
+00_BRIEF
+Use this for the project brief, goal, audience and requirements.
+
+01_RESEARCH
+Use this for research sources, links, notes and references.
+
+02_STRATEGY
+Use this for plans, campaign strategy, SEO strategy or content strategy.
+
+03_COPY
+Use this for written drafts, ad copy, page copy, emails or messages.
+
+04_DESIGN
+Use this for design notes, creative direction and layout planning.
+
+05_CODE
+Use this for website code, WordPress snippets, PHP, CSS and JavaScript.
+
+06_ASSETS
+Use this for images, videos, screenshots, design files and resources.
+
+07_REPORTS
+Use this for performance reports, notes, checks and asset registers.
+
+08_FINAL
+Use this for approved final files and exports.
+
+GitHub rule:
+GitHub should mainly store text, code, briefs, notes, templates and tracking files.
+
+Dropbox/local rule:
+Images, videos, audio, design files, ZIP files and large exports should stay in Dropbox/local folders.
+
+Large file rule:
+Do not push large media files to GitHub by default.
+
+Asset register rule:
+If a project has images, videos or large files, create:
+07_REPORTS/ASSET-REGISTER.md
+
+Use the asset register to track:
+
+- File name
+- Local path
+- Dropbox path or shared link
+- Purpose
+- Source
+- Licence or consent status
+- Notes
+
+Simple example:
+
+02_PROJECTS/2026-04-27_meta-ads-copy/
+  00_BRIEF/
+  01_RESEARCH/
+  02_STRATEGY/
+  03_COPY/
+  04_DESIGN/
+  05_CODE/
+  06_ASSETS/
+  07_REPORTS/
+  08_FINAL/
+
+If Numan needs to add files, he should add them inside:
+02_PROJECTS/YYYY-MM-DD_project-name/06_ASSETS/
+
+If Codex creates final exports, they should go inside:
+02_PROJECTS/YYYY-MM-DD_project-name/08_FINAL/
+
+Compliance reminder:
+
+- Use British English.
+- Follow Din Solicitors brand rules.
+- Do not use misleading legal marketing claims.
+- Do not include sensitive client information.
+- Do not invent testimonials, client stories or case results.
+- Keep SRA and CAP Code compliance in mind.
+

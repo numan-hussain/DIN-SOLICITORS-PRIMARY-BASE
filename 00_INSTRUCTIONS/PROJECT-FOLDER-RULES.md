@@ -42,6 +42,17 @@ project-name/
 - Keep performance updates and results in `07_REPORTS/`.
 - Keep approved final material in `08_FINAL/`.
 
+## Export and Resource Rule
+
+Use the project folder for everything connected to that work.
+
+- Put source files, screenshots, images and videos in `06_ASSETS/`.
+- Put working drafts in the relevant draft folder, such as `03_COPY/`, `04_DESIGN/` or `05_CODE/`.
+- Put approved final exports in `08_FINAL/`.
+- Track large files in `07_REPORTS/ASSET-REGISTER.md` when needed.
+
+Large images, videos, audio files, ZIP files and large PDFs should stay in Dropbox/local storage and should not be pushed to GitHub by default.
+
 ## Compliance Check
 
 Before finalising any project, check:
@@ -53,4 +64,3 @@ Before finalising any project, check:
 - No sensitive client information is included.
 - SRA and CAP Code risk has been considered.
 - Din brand colours and tone are followed.
-

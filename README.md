@@ -26,6 +26,7 @@ Use this folder as the central base for:
 - `07_REPORTS/` - marketing reports, SEO reports, ad performance and monthly reviews.
 - `08_TEMPLATES/` - reusable briefs, page templates, ad templates and message templates.
 - `09_ARCHIVE/` - completed, paused or old work.
+- `DIN-ACTIVITIES/` - day-to-day task folders, exports, working files and resources.
 
 ## Working Rule
 
@@ -39,3 +40,12 @@ Example:
 
 `2026-04-27_website-new-version`
 
+For smaller day-to-day tasks, exports and generated files, create a new folder inside `DIN-ACTIVITIES/`.
+
+Suggested naming format:
+
+`YYYY-MM-DD_activity-name`
+
+Example:
+
+`2026-04-27_meta-ads-copy`
